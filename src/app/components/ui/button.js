@@ -7,5 +7,5 @@
           </button>
         )
 
-    
+          Button.displayName = "button";
     export default Button;
