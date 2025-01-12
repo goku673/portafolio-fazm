@@ -1,9 +1,9 @@
-import React from 'react'
-import Button from './ui/button';
-import Card from './card';
-import CardContent from './card-content';
-import { FileText } from 'lucide-react';
-import Image from 'next/image';
+import React from "react"
+import Button from "./ui/button";
+import Card from "./card";
+import CardContent from "./card-content";
+import { FileText } from "lucide-react";
+import Image from "next/image";
 
     const messageWelcome = "Bienvenido a mi mundo digital"
     const messageAbout = "Soy un desarrollador web full stack apasionado por crear experiencias digitales excepcionales. Con experiencia en tecnologías front-end y back-end, me especializo en construir aplicaciones web robustas y escalables.";
@@ -29,12 +29,13 @@ import Image from 'next/image';
                       {messageAbout}  
                       </p>
                       <Button 
-                        onClick={() => window.open('/tu-cv.pdf', '_blank')} 
+                        onClick={() => window.open("/Freddy-Amin-Zapata.docx", "_blank")} 
                         className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
                         icon={<FileText className="mr-2 h-4 w-4"/>}
                       >
                         Descargar CV
                       </Button>
+                      
                     </div>
                 </CardContent>
             </Card>

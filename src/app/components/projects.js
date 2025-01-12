@@ -43,7 +43,7 @@ const projects = [
     title: "Weather Forecast Dashboard", 
     description: "An interactive weather dashboard with data visualization.",
     technologies: ["Next.js", "Tailwind CSS", "Html"],
-    link: "https://github.com/yourusername/weather-dashboard",
+    link: "https://github.com/goku673/gradiente-geometrioco",
     urlProyect: "https://gradiente-geometrico-g5.vercel.app",
     image: "https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/gradiente%20Geometrico.jpeg?alt=media&token=a073ab57-e650-4e03-952f-b847049a547d"
   }
