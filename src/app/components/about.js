@@ -29,7 +29,7 @@ import Image from "next/image";
                       {messageAbout}  
                       </p>
                       <Button 
-                        onClick={() => window.open("/Freddy-Amin-Zapata.docx", "_blank")} 
+                        onClick={() => window.open("/freddy-amin-zapata-moato-fazm.pdf", "_blank")} 
                         className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
                         icon={<FileText className="mr-2 h-4 w-4"/>}
                       >
