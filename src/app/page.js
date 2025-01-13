@@ -13,12 +13,12 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 
   const nameDev = "Freddy Amin Zapata Morato";
-  const profession = "Desarrollador Web Full Stack";
+  const profession = "Full Stack Web Developer";
   const tabsData = [
-    { value: "about", label: "Sobre Mí", component : <About/> },
-    { value: "projects", label: "Proyectos", component : <Projects/> },
-    { value: "skills", label: "Habilidades", component : <Skills/> },
-    { value: "contact", label: "Contacto", component : <Contact/> },
+    { value: "about", label: "About Me", component : <About/> },
+    { value: "projects", label: "Projects", component : <Projects/> },
+    { value: "skills", label: "Skills", component : <Skills/> },
+    { value: "contact", label: "Contact", component : <Contact/> },
   ]
   const Home = () =>{
         const [activeTab, setActiveTab] = useState("about");

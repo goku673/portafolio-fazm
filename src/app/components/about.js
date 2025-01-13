@@ -5,8 +5,8 @@ import CardContent from "./card-content";
 import { FileText } from "lucide-react";
 import Image from "next/image";
 
-    const messageWelcome = "Bienvenido a mi mundo digital"
-    const messageAbout = "Soy un desarrollador web full stack apasionado por crear experiencias digitales excepcionales. Con experiencia en tecnologías front-end y back-end, me especializo en construir aplicaciones web robustas y escalables.";
+    const messageWelcome = "Welcome to my digital world."
+    const messageAbout = "Hello! I am a 22-year-old full-stack web developer. I love transforming ideas into functional and attractive web applications. With skills in both client-side and server-side technologies, I am committed to creating digital experiences that make a difference. Explore my portfolio and discover what I can do!";
     const About = () => (
             <Card>
                 <CardContent className="flex flex-col md:flex-row items-center p-6">
@@ -33,7 +33,7 @@ import Image from "next/image";
                         className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
                         icon={<FileText className="mr-2 h-4 w-4"/>}
                       >
-                        Descargar CV
+                        Download CV
                       </Button>
                       
                     </div>
