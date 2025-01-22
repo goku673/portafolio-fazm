@@ -13,7 +13,7 @@ import Image from "next/image";
                     <div className="md:w-1/3 mb-6 md:mb-0">
                       <div className="w-48 h-48 rounded-full overflow-hidden mx-auto">
                         <Image 
-                        src="https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/foto.jpeg?alt=media&token=fbff735d-255a-4b1b-b959-bbb867d55a15" 
+                        src="https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/Pica-enhance-20250121215814.png?alt=media&token=ab6fa48f-6115-4926-9c4f-e7f7ed0a33b8" 
                         alt="mi nombre" 
                         width={200} 
                         height={200} 
