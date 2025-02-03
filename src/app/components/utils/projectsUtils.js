@@ -3,9 +3,9 @@
         title: "Social Net", 
         description: "A full-stack social networking app that allows users to connect, share, and interact in real-time. It features user authentication and a dynamic feed for updates.",
         technologies: ["Next.js", "Tailwind CSS", "Docker", "JavaScript", "Node.js"],
-        link: "https://github.com/goku673/portafolio-fazm",
-        urlProyect: "https://movie-amine.onrender.com/",
-        image: "https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/socialNet.jpeg?alt=media&token=03e0ce52-8076-44bb-a0eb-0bc1eb54e7f2"
+        link: "https://github.com/goku673/social-net-web",
+        urlProyect: "",
+        image: "https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/Captura%20de%20pantalla%202025-02-03%20153458.png?alt=media&token=55cd9868-d09c-42ea-a250-707c0f6c4f6e"
         },
         { 
         title: "E-commerce Movie", 

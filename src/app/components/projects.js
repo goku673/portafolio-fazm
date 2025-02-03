@@ -7,6 +7,7 @@ import { GitlabIcon as GitHub, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import CardFooter from "./cardFooter";
 import { projects} from "@/app/components/utils/projectsUtils";
+import Swal from 'sweetalert2';
 
 
 const Projects = () => {
@@ -34,13 +35,24 @@ const Projects = () => {
             <Button 
                 className="rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 border-black border-2" 
                 onClick={() => window.open(project.link, "_blank")}>
-                <GitHub className="mr-2 h-4 w-4" /> Ver Código
+                <GitHub className="mr-2 h-4 w-4" /> View code
               </Button>
               <Button
                 className="rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 border-black border-2"
-                onClick={() => window.open(project.urlProyect, "_blank")}
-              >
-                <ExternalLink className="mr-2 h-4 w-4" />Ir a Proyecto
+                onClick={() => {
+                     (project.title === "Social Net") 
+                    ? new Swal({
+                        title: "This project is was updated",
+                        text: "This project is being remodeled to a new version.",
+                        icon: "info",
+                        buttons: ["Continuar"],
+                        dangerMode: true,
+                    })
+                    : window.open(project.urlProyect, "_blank");
+                }}
+              > 
+                
+                <ExternalLink className="mr-2 h-4 w-4" />Go to project
               </Button>
           </CardFooter>
         </Card>
