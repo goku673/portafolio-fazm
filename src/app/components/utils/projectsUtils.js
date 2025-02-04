@@ -20,7 +20,7 @@
         description: "A visually appealing front-end portfolio that showcases my projects with responsive design and interactive elements, providing a seamless user experience.",
         technologies: ["Next.js", "Tailwind CSS", "HTML", "JavaScript", "CSS"],
         link: "https://github.com/goku673/portafolio-fazm",
-        urlProyect: "https://movie-amine.onrender.com/",
+        urlProyect: "https://portafolio-fazm.vercel.app/",
         image: "https://firebasestorage.googleapis.com/v0/b/conexia-400921.appspot.com/o/WhatsApp%20portafolio.jpeg?alt=media&token=dc64f25b-b855-405c-92aa-e6eb92caa346"
         },
         { 

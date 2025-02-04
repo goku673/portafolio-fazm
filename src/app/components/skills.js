@@ -8,7 +8,7 @@ import { skills, skillsKnowledge } from "./utils/skillsUtils";
         <Card>
           <CardContent className="p-6">
             <h2 className="text-2xl text-gray-800 font-extrabold mb-6">
-                Mis Habilidades
+            My Skills
             </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {skills.map((skill, index) => (
@@ -26,7 +26,7 @@ import { skills, skillsKnowledge } from "./utils/skillsUtils";
         <Card>
            <CardContent>
            <h2 className="text-2xl text-gray-800 font-extrabold mb-6">
-                Conocimientos
+            Areas of Knowledge
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
                 {skillsKnowledge.map((skill, index) => (
